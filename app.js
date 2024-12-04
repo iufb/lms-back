@@ -16,7 +16,7 @@ app.post("/register", (req, res) => {
   const body = req.body;
   console.log(body);
   // Respond to the client
-  res.send(`Hello, ${userId}!`);
+  res.send(`Hello , ${body.email}!`);
 });
 
 // Set the server to listen on a specific port
